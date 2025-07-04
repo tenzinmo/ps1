@@ -1,0 +1,46 @@
+/* Heading styling */
+h1 {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+/* Table header cell styling */
+th {
+    height: 2rem;
+    text-align: left;
+    color: #0a7830;
+    background-color: #d3d3d3;
+    padding: 0.5em;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+/* Table data cell styling */
+td {
+    padding: 0.5em;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+/* Hover effect for table body rows */
+tbody tr:hover {
+    background-color: pink;
+}
+
+/* Album cover image styling */
+img {
+    width: 100px;
+    height: 100px;
+}
